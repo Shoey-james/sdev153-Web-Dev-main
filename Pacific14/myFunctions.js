@@ -10,7 +10,7 @@ function checkPhone(myId, msgId) {
 
     //(123)-456-7890; 123-456-7890; 123 456 7890
     //var re = /^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/;
-    if (retval) {
+    if (retVal) {
         element2.innerText = "";
         element2.style.display = 'None';
     }
@@ -21,6 +21,6 @@ function checkPhone(myId, msgId) {
         element2.innerText = "Please enter a phone number in the format of: 123-456-7890"
     }
 
-    return retval
+    return retVal
 
 }
