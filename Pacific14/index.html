@@ -56,7 +56,8 @@
       <a href="mailto:jshoemaker46@ivytech.edu">jshoemaker46@ivytech.edu</a>
       <div>
         <script>
-          document.lastModified;
+          const lm = document.getElementById("lastModified");
+          lm.innerHTML = "Last modified on:&nbsp" + document.lastModified;
         </script>
       </div>
     </footer>
