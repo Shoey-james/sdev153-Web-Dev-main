@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="pacific.css">
+  <script src="myFunctions.js"></script>
 </head>
 <body>
     <header>
@@ -25,7 +26,7 @@
     <h2>Reservations at Pacific Trails</h2>
     <h3>Contact Us</h3>
     <p> Required fields are marked with an asterisk*.
-      <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+      <form method="post" action="https://webdevbasics.net/scripts/pacific.php" onsubmit="return checkPhone('myPhone', 'message');">
         <label for="myFName">*First Name:</label> <input type="text" id="myFName" name="myFName" placeholder="First Name" required>
         <label for="myLName">*Last Name:</label> <input type="text" id="myLName" name="myLName"placeholder="Last Name" required>
         <label for="myEmail">*Email:</label> <input type="email" id="myEmail" name="myEmail"placeholder="Email" required>
@@ -36,6 +37,7 @@
         <input type="submit" id="mySubmit" value="Submit">
       </form>
     </p>
+    <div><span id="message"></span></div>
     </main>
     <footer>
       Copyright &#xa9; 2020 Pacific Trails Resort<br/>
