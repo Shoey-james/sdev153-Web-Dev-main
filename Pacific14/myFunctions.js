@@ -17,10 +17,9 @@ function checkPhone(myId, msgId) {
     else {
         element2.style.display = 'block';
         element2.style.backgroundColor = 'red';
+        element2.style.color = 'white';
         element2.innerText = "Please enter a phone number in the format of: 123-456-7890"
     }
-
-//    alert(retVal)
 
     return retval
 
