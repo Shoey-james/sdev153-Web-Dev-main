@@ -147,7 +147,7 @@ section {
 }
 
 .shop form {
-        clear: right;
+        float: right;
 }
 
 #shophero {
