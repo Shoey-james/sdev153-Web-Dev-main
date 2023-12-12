@@ -129,11 +129,11 @@ section {
 }
 
 #pets {
-    background-image: url(images/zekeandjax.jpg), url(images/zekekitten2.jpg);
+    background-image: url(images/zekeandjax.jpg);
     background-repeat: no-repeat;
-    height: 400px;
-    width: 300px;
-    background-size: 200% 100%;
+    height: 539px;
+    width: 960px;
+    background-size: 100% 100%;
 }
 
 #homehero {
