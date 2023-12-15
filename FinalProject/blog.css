@@ -16,7 +16,7 @@ body {
 }
 
 dt {
-    color: darkblue;
+    color: black;
     font-weight: 700;
 }
 
@@ -41,11 +41,11 @@ header a:link,a:visited {
 }
 
 header a:hover {
-    color: lightblue;
+    color: lightgrey;
 }
 
 h1 {
-    background-color: #002171;
+    background-color: Purple;
     color: white;
     font-family: Georgia, serif;
     font-size: 1.5em;
@@ -59,6 +59,7 @@ h2 {
 }
 
 h3 {
+    color: black;
     font-family: Georgia, serif;
 }
 
@@ -172,7 +173,7 @@ tr:nth-child(even) {
 }
 /* for photo gallery from we3 schools */
 div.gallery {
-    border: 1px solid #ccc;
+    border: 1px solid lightgrey;
   }
   
   div.gallery:hover {
