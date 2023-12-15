@@ -140,9 +140,11 @@ section {
 
 #homehero {
     background-image: url(images/waterfall.jpg);
-    background-position: no-repeat;
+    background-repeat: no-repeat;
     height: 400px;
     width: 1005px;
+    margin-left: auto;
+    margin-right: auto;
     background-size: 100% 100%;
 }
 
