@@ -79,7 +79,7 @@ main {
 
 nav {
     font-size: 1.2em;
-    background-color: white;
+    background-color: purple;
     text-align: center;
 }
 
@@ -90,7 +90,7 @@ nav a:link {
 }
 
 nav a:visited {
-    color: #344873;
+    color: white;
 }
 
 nav a:hover {
@@ -119,11 +119,6 @@ section {
     padding-right: 0.5em;
 }
 
-.resort {
-    color: #1976d2;
-    font-size: 1.2em;
-}
-
 #wrapper {
     background-color: ghostwhite;
     min-width: 960px; 
@@ -146,6 +141,16 @@ section {
     background-repeat: no-repeat;
     height: 400px;
     width: 1005px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: 100% 100%;
+}
+
+#museumhero {
+    background-image: url(images/cbg2.JPG);
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
     background-size: 100% 100%;
