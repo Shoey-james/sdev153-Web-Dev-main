@@ -134,6 +134,8 @@ section {
 #pets {
     background-image: url(images/zekeandjax.jpg);
     background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
     height: 539px;
     width: 960px;
     background-size: 100% 100%;
