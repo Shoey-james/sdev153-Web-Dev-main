@@ -168,13 +168,14 @@ tr:nth-child(even) {
 
 #pchero {
     background-image: url(images/pcfront.jpg);
-    background-position-x: right;
     background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
     height: 700px;
     width: 700px;
     background-size: 100% 100%;
 }
-/* for photo gallery from we3 schools */
+/* for photo gallery from w3 schools */
 div.gallery {
     border: 1px solid lightgrey;
   }
