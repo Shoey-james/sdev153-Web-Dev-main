@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #EAEAEA;
+    background-color:white;
     color: #666666;
     font-family: Verdana, Arial, sans-serif;
     margin: 0;
@@ -19,14 +19,6 @@ body {
 dt {
     color: black;
     font-weight: 700;
-}
-
-footer {
-    font-size: 0.70em;
-    font-style: italic;
-    text-align: center;
-    padding: 1em;
-    background-color: white;
 }
 
 header {
@@ -166,11 +158,11 @@ td.text {
 
 td, th {
     padding: 5px;
-    border: 1px solid blue;
+    border: 1px solid purple;
 }
 
 tr:nth-child(even) {
-    background-color: lightblue;
+    background-color: grey;
 }
 
 #pchero {
@@ -272,7 +264,7 @@ div.gallery {
 
 @media only screen and (min-width: 1024px) {
     body {
-        background-image: linear-gradient(to bottom, white 20%, #90C7E3 60%, white 100%);
+        background-image: linear-gradient(to bottom, white 20%, purple 60%, white 100%);
     }
     nav ul {
         padding-left: 10%;
